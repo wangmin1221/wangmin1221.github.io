@@ -1,17 +1,14 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="E:\数字媒介训练营\GitHub\wangmin1221.github.io\css\bootstrap.min.css">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title> Hi, I'm Wang Min </title>
     <meta name="description" content="Wang MiN's personal homepage.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        * {
-            box-sizing: border-box;
-        }
-        
-        meta {
+            meta {
             display: none;
         }
         
@@ -19,6 +16,19 @@
             color: #222;
             font-size: 1em;
             line-height: 1.4;
+        }
+        /*.header {
+            box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.50);
+            border-radius: 3px;
+            background: url(倒影.jpg) no-repeat center center;
+            background-size: 100%, auto;
+            height: 10em;
+            max-width: 900px;
+            margin: auto;
+        }*/
+        
+        * {
+            box-sizing: border-box;
         }
         
         body {
@@ -32,17 +42,6 @@
             text-align: center;
         }
         
-        .card {
-            background: #FFFFFF;
-            box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.50);
-            border-radius: 9px;
-            min-height: 700px;
-            /* padding: 5px; */
-            max-width: 800px;
-            margin: 100px auto;
-            text-align: center;
-        }
-        
         .flex {
             display: flex;
             flex-wrap: wrap;
@@ -51,7 +50,7 @@
         }
         
         #avatar {
-            margin: -75px auto 8px;
+            margin: 40px auto 8px;
             display: inline-block;
             padding: 1px;
             vertical-align: bottom;
@@ -61,6 +60,10 @@
             border: 5px solid #E7E7E7;
             background: url(headshot.jpg) no-repeat center center;
             background-size: 100%, auto;
+        }
+        
+        .column_2 {
+            background: #f7f7f7;
         }
         
         .flex {
@@ -86,7 +89,7 @@
             font-size: 1.5em;
             -webkit-margin-before: 0.67em;
             -webkit-margin-after: 0.67em;
-            -webkit-margin-start: 0px;
+            -webkit-margin-start: 15px;
             -webkit-margin-end: 0px;
             font-weight: bold;
         }
@@ -96,7 +99,7 @@
             font-size: 1.1em;
             -webkit-margin-before: 0.80em;
             -webkit-margin-after: 0.80em;
-            -webkit-margin-start: 0px;
+            -webkit-margin-start: 20px;
             -webkit-margin-end: 0px;
             font-weight: bold;
         }
@@ -143,66 +146,96 @@
             background: url(2.jpg) no-repeat center center;
             background-size: 100% auto;
         }
+        
+        .glyphicon {
+            position: relative;
+            top: 20px;
+            display: inline-block;
+            font-family: 'Glyphicons Halflings';
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
     </style>
 
 </head>
 
 <body>
-    <div class="card">
-        <div id="avatar"></div>
-        <div class="name"> Wang Min </div>
-        <div class="description"> Master Student </div>
-        <div class="flex">
-            <div class="box">
-                <h1>Bio</h1>
-                <ul>
-                    <li> Major in: Journalism </li>
-                    <li> Interest：Photography & Calligraphy </li>
-                </ul>
-
-                <h1>Trajectory</h1>
-                <h2> Learning </h2>
-                <ul>
-                    <li> Fujian Normal University </li>
-                    <li> Renmin University of China </li>
-                    <li> Shanghai University </li>
-                </ul>
-                <h2> Training </h2>
-                <ul>
-                    <li> New Media Salon ("一见") </li>
-                    <li> Digital Media Camp </li>
-                </ul>
-                <h2> Internship </h2>
-                <ul>
-                    <li> BAZAAR </li>
-                    <li> 麦穗文化传播 </li>
-                </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div id="avatar"></div>
+                <div class="name"> Wang Min </div>
+                <div class="description"> Master Student </div>
+                <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
             </div>
-            <div class="box portfolio">
-                <h1>Portfolio</h1>
-                <a href="" class="no-underline">
-                    <div class="portfolio-item" id="portfolio-1">
-                        <span>DataWorks</span>
-                    </div>
-                </a>
-                <a href="" class="no-underline">
-                    <div class="portfolio-item" id="portfolio-2">
-                        <span>Photography</span>
-                    </div>
-                </a>
-                <a href="" class="no-underline">
-                    <div class="portfolio-item" id="portfolio-3">
-                        <span>Micro-viedo</span>
-                    </div>
-                </a>
+            <div class="col-md-9 column_2">
+                <div id="main">
+                    <div class="flex">
+                        <div class="box">
+                            <h1>Bio</h1>
+                            <ul>
+                                <li> Major in: Journalism </li>
+                                <li> Interest：Photography & Calligraphy </li>
+                            </ul>
 
-            </div>
-            <div class="box">
-                <h1>Skills</h1>
+                            <h1>Trajectory</h1>
+                            <h2> Learning </h2>
+                            <ul>
+                                <li> Fujian Normal University </li>
+                                <li> Renmin University of China </li>
+                                <li> Shanghai University </li>
+                            </ul>
+                            <h2> Training </h2>
+                            <ul>
+                                <li> New Media Salon ("一见") </li>
+                                <li> Digital Media Camp </li>
+                            </ul>
+                            <h2> Internship </h2>
+                            <ul>
+                                <li> BAZAAR </li>
+                                <li> 麦穗文化传播 </li>
+                            </ul>
+                        </div>
+                        <div class="box portfolio">
+                            <h1>Portfolio</h1>
+                            <a href="" class="no-underline">
+                                <div class="portfolio-item" id="portfolio-1">
+                                    <span>DataWorks</span>
+                                </div>
+                            </a>
+                            <a href="" class="no-underline">
+                                <div class="portfolio-item" id="portfolio-2">
+                                    <span>Photography</span>
+                                </div>
+                            </a>
+                            <a href="" class="no-underline">
+                                <div class="portfolio-item" id="portfolio-3">
+                                    <span>Micro-viedo</span>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h1>Skills</h1>
+                    </div>
+                </div>
+
             </div>
         </div>
-
     </div>
+    </div>
+
+
+
+
+
+    <!--<div class="card">
+    </div>-->
+
+
+
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
 

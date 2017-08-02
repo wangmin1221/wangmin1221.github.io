@@ -1,0 +1,212 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css\bootstrap-theme.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> Hi, I'm Wang Min </title>
+    <meta name="description" content="Wang MiN's personal homepage.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        meta {
+            display: none;
+        }
+        
+        html {
+            color: #222;
+            font-size: 1em;
+            line-height: 1.4;
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        body {
+            background: #eceef2;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+        
+        .card {
+            background: #FFFFFF;
+            box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.50);
+            border-radius: 9px;
+            min-height: 700px;
+            /* padding: 5px; */
+            max-width: 800px;
+            margin: 100px auto;
+            text-align: center;
+        }
+        
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            text-align: left;
+        }
+        
+        #avatar {
+            margin: -75px auto 8px;
+            display: inline-block;
+            padding: 1px;
+            vertical-align: bottom;
+            border-radius: 50%;
+            height: 150px;
+            width: 150px;
+            border: 5px solid #E7E7E7;
+            background: url(headshot.jpg) no-repeat center center;
+            background-size: 100%, auto;
+        }
+        
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            text-align: left;
+        }
+        
+        .box {
+            display: block;
+            /* margin: 5%; */
+            padding: 1em 2em 0 2em;
+            min-height: 200px;
+            text-align: left;
+            min-width: 400px;
+            max-width: 555px;
+            float: left;
+        }
+        
+        h1 {
+            display: block;
+            font-size: 1.5em;
+            -webkit-margin-before: 0.67em;
+            -webkit-margin-after: 0.67em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            font-weight: bold;
+        }
+        
+        h2 {
+            display: block;
+            font-size: 1.1em;
+            -webkit-margin-before: 0.80em;
+            -webkit-margin-after: 0.80em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            font-weight: bold;
+        }
+        
+        a {
+            background-color: transparent;
+            padding: 1em;
+        }
+        
+        .portfolio-item {
+            background: #F3F3F3;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.40);
+            border-radius: 12px;
+            margin: auto;
+            /* min-width: 500px; */
+            height: 120px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all .2s ease-in-out;
+            -webkit-transition: all .2s ease-in-out;
+        }
+        
+        .portfolio-item span {
+            font-size: xx-large;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            text-shadow: #222222;
+        }
+        
+        #portfolio-1 {
+            background: url(1.JPG) no-repeat center center;
+            background-size: 100% auto;
+        }
+        
+        #portfolio-2 {
+            background: url(3.jpg) no-repeat center center;
+            background-size: 100% auto;
+        }
+        
+        #portfolio-3 {
+            background: url(2.jpg) no-repeat center center;
+            background-size: 100% auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="card">
+        <div id="avatar"></div>
+        <div class="name"> Wang Min </div>
+        <div class="description"> Master Student </div>
+        <div class="flex">
+            <div class="box">
+                <h1>Bio</h1>
+                <ul>
+                    <li> Major in: Journalism </li>
+                    <li> Interest：Photography & Calligraphy </li>
+                </ul>
+
+                <h1>Trajectory</h1>
+                <h2> Learning </h2>
+                <ul>
+                    <li> Fujian Normal University </li>
+                    <li> Renmin University of China </li>
+                    <li> Shanghai University </li>
+                </ul>
+                <h2> Training </h2>
+                <ul>
+                    <li> New Media Salon ("一见") </li>
+                    <li> Digital Media Camp </li>
+                </ul>
+                <h2> Internship </h2>
+                <ul>
+                    <li> BAZAAR </li>
+                    <li> 麦穗文化传播 </li>
+                </ul>
+            </div>
+            <div class="box portfolio">
+                <h1>Portfolio</h1>
+                <a href="" class="no-underline">
+                    <div class="portfolio-item" id="portfolio-1">
+                        <span>DataWorks</span>
+                    </div>
+                </a>
+                <a href="" class="no-underline">
+                    <div class="portfolio-item" id="portfolio-2">
+                        <span>Photography</span>
+                    </div>
+                </a>
+                <a href="" class="no-underline">
+                    <div class="portfolio-item" id="portfolio-3">
+                        <span>Micro-viedo</span>
+                    </div>
+                </a>
+
+            </div>
+            <div class="box">
+                <h1>Skills</h1>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+
+</body>
+
+</html>

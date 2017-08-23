@@ -71,10 +71,6 @@ body {
     color: #191919;
 }
 
-.case1 {
-    /*background-color:*/
-}
-
 .btn-danger {
     color: #fff;
     background-color: #dc3545;
@@ -125,3 +121,8 @@ body {
 #sup {
     font-size: 5px;
 }
+
+
+/*#tablename {
+    text-align: center;
+}*/

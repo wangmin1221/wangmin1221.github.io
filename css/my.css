@@ -16,6 +16,7 @@
 .head {
     background-color: rgba(183, 183, 183, .7);
     color: #191919;
+    padding-top: 30px;
 }
 
 #mainNav {

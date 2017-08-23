@@ -7,9 +7,9 @@ option = {
         left: '30',
         textStyle: {
             color: '#191919',
-            fontSize: 25,
-            fontFamily: 'Lora, Helvetica Neue, Helvetica, Arial, sans-serif'
-                // fontWeight: 20
+            fontSize: 20,
+            fontFamily: 'Lora, Helvetica Neue, Helvetica, Arial, sans-serif',
+            // fontWeight: 15,
         },
         subtext: '2013年1月至10月及2017年7月以后的数据缺失，故不体现在图表中。',
         subtext: '数据来源：中央纪委监察部网站',
@@ -63,7 +63,7 @@ option = {
         axisLine: {
             show: true,
             lineStyle: {
-                color: 'white',
+                color: 'black',
                 width: 1,
             }
         }
@@ -75,7 +75,7 @@ option = {
             onZero: false,
             show: true,
             lineStyle: {
-                color: 'white',
+                color: 'black',
                 width: 1,
             }
         },

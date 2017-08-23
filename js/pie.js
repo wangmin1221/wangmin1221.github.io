@@ -1,13 +1,13 @@
 var myChart = echarts.init(document.getElementById('pie'));
 option = {
     title: {
-        text: '人均礼金数额',
+        text: '违规干部婚礼收取的人均礼金数额',
         subtext: '数据来源：中央纪委监察部网站',
-        x: 'right',
+        x: 'left',
         show: true,
         // left: '30',
         textStyle: {
-            color: '#eea822',
+            color: '#191919',
             fontSize: 18,
             fontFamily: 'Lora, Helvetica Neue, Helvetica, Arial, sans-serif'
                 // fontWeight: 20

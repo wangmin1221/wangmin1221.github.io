@@ -32,7 +32,7 @@ h1 {
     margin-top: 50px;
 }
 
-h3 {
+h4 {
     color: rgba(164, 45, 35, 1);
 }
 
@@ -47,7 +47,45 @@ p {
 }
 
 #question {
+    margin-top: 100px;
+}
+
+.case1 {
+    display: none;
+    margin-top: 20px;
+}
+
+.totalnum {
+    color: rgba(226, 36, 36, 1);
+    font-size: 25px;
+}
+
+#lead {
+    margin: 100px;
+}
+
+#mainbody {
+    margin-top: 100px;
+}
+
+#custom {
     margin-top: 50px;
+}
+
+#policy {
+    margin-top: 50px;
+}
+
+#source {
+    display: none;
+}
+
+.punish {
+    color: rgba(226, 36, 36, 1);
+}
+
+#punishcase {
+    font-size: 15px;
 }
 
 @media (min-width:768px) {
@@ -225,12 +263,16 @@ a:hover {
 
 .btn {
     font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     text-transform: uppercase;
-    border-radius: 0
+    border-radius: 1;
+    margin-right: 5px;
+    background-color: rgba(226, 36, 36, 1);
+    font-size: 15px;
+    padding: 0.3rem 0.7rem;
 }
 
 .btn-default {

@@ -20,6 +20,11 @@
 
     <link href="css/my.css" rel="stylesheet">
 
+    <!--引入鼠标闪烁效果CSS(可选)-->
+    <link rel="stylesheet" href="js/typing/typing.css">
+    <!--引入typing.js，核心文件-->
+    <script src="js/typing/typing.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -55,7 +60,8 @@
         <div class="container">
             <div class="row">
                 <div id="lead" class="col-lg-12 mx-auto">
-                    <p>2012年12月4日，中共中央政治局召开会议，审议通过了中央政治局关于改进工作作风、密切联系群众的八项规定。自此，反腐行动在全国范围内展开。截至2017年6月，因违反八项规定被查处的公职人员高达<b>238,614</b>人次，受到党纪处分的共<b>127,814</b>人。查处的问题类型有违规操办婚丧喜庆事宜、公款吃喝娱乐、公款旅游、违规发放津补贴或福利、违规收送礼品礼金、违规配备或使用公车、违规配置办公用房等。其中，因操办婚丧喜庆事宜而被查处的问题数占总数近<b>10%</b>，处理人数达<b>20,497</b>人。</p>
+                    <p>2012年12月4日，中共中央政治局召开会议，审议通过了中央政治局关于改进工作作风、密切联系群众的八项规定。自此，反腐行动在全国范围内展开。截至2017年6月，因违反八项规定被查处的公职人员高达<b class="totalnum">238,614</b>人次，受到党纪处分的共<b class="totalnum">127,814</b>人。查处的问题类型有违规操办婚丧喜庆事宜、公款吃喝娱乐、公款旅游、违规发放津补贴或福利、违规收送礼品礼金、违规配备或使用公车、违规配置办公用房等。其中，因操办婚丧喜庆事宜而被查处的问题数占总数近
+                        <b class="totalnum">10%</b>，处理人数达<b class="totalnum">20,497</b>人。</p>
                 </div>
                 <div id="pic1" class="col-lg-12 mx-auto">
                     <img src="img/违规问题查处人数.svg">
@@ -86,11 +92,21 @@
         <div class="container">
             <div class="row">
                 <div id="custom" class="col-lg-12 mx-auto">
-                    <h3>难以逾越的习俗</h3>
+
+                    <h4>难以逾越的习俗</h4>
 
                     <p>据历史记载，喜礼“份子钱”开始于明朝。在农耕时代，生产力和生产方式比较落后，盖房子、娶媳妇是大事，仅靠一家一户难以完成，形成了“凑份子”的模式，每户人家都送点礼，出点钱，集多家之力办喜事。改革开放后，人们手上也有了闲钱，随着商品经济观念的深入人心，直接送钱为全社会所接受，送礼金成为祝福新人的方式。今天，这已经成为一种习惯，逐渐成为了衡量人际关系的标准。</p>
 
                     <!--a video here-->
+                    <video width="100%" height="240" controls="controls">
+  <source src="movie.mp4" type="video/mp4" />
+  <source src="movie.ogg" type="video/ogg" />
+  <source src="movie.webm" type="video/webm" />
+  <object data="movie.mp4" width="320" height="240">
+    <embed src="movie.swf" width="320" height="240" />
+  </object>
+</video>
+
 
                     <p>有报道称，杜家槽村邻村的一位村民说：“作为一个有声望的人，摆的酒席太少，大家也会觉得你太涩皮（陕西方言，表示抠门），会怀疑你是不是人缘不行。”</p>
 
@@ -102,9 +118,60 @@
 
         <div class="container">
             <div class="row">
+                <div id="source" class="col-lg-12 mx-auto">
+                    <p id="punishcase">2013年4月，北京密云县檀营乡党委委员、副乡长刘远超邀请418人参加儿子婚礼（收礼金31,100元），受到<b class="punish">党内严重警告处分</b>。</br>
+
+                        2013年9月，四川合江县白米乡副乡长刘及贵为儿子摆办婚宴81桌（共收礼金12.17万元），受到<b class="punish">党内严重警告处分</b>，并<b class="punish">免去职务</b>。</br>
+
+                        2013年9月，黑龙江肇源县法院审监庭庭长姜英龙为女儿摆办婚宴41桌（收礼金13.2万元），受到<b class="punish">党内严重警告处分</b>。</br>
+
+                        2014年4月，广东化州市长岐镇东安村党支部书记李亚森为儿子摆办婚宴50桌（收礼金3.7万元），受到<b class="punish">党内严重警告处分</b>。</br>
+
+                        2014年4月，广东湛江经济技术开发区国税局副局长杨智为儿子摆办婚宴28桌（收礼金9.36万元），被<b class="punish">免职处理</b>。</br>
+
+                        2014年5月，海口市琼山区云龙镇云裕村党支部书记、村委会主任王朝阳为儿子操办婚宴（共16桌，收礼5,000元），受到<b class="punish">党内警告处分</b>。</br>
+
+                        2014年6月，北京市怀柔区园林绿化局纪委书记李久武为女儿摆办婚宴26桌（收礼金15.6万元），受到<b class="punish">党内严重警告处分</b>。</br>
+
+                        2014年12月，福建泉州市丰泽区城东街道泉铁社区党支部书记兼主任吴年兰为女儿大办婚宴（收非亲对象礼金15,760元），受到<b class="punish">党内警告处分</b>。</br>
+
+                        2015年10月，山西煤炭运销集团太原清徐有限公司副经理李燕忠为儿子操办婚礼，邀请宾客450人（收礼金5.475万元），受到<b class="punish">党内严重警告处分</b>。</br>
+
+                        2016年3月，青海西宁市湟中县水务局副局长李国瑶为女儿操办婚宴（收10名下属礼金共计19,000元），受到<b class="punish">党内严重警告处分及行政记大过处分</b>。</br>
+
+                        2016年4月，河南汝州市煤山街道骑庄居委会党支部委员郭书彬为儿子摆办婚宴70桌（收礼金1.58万元），受到<b class="punish">撤销党内职务处分</b>。</br>
+
+                        2016年9月，怀柔区总工会副调研员胡庆森两次为女儿举办婚宴，共设宴4桌（收47名工会干部职工礼金共计2.07万元），受到<b class="punish">党内严重警告处分</b>。</br>
+
+                        2016年11月，甘肃正宁县西坡镇高红村党支部原书记白宏星为儿子操办婚礼，宴请455人（收礼金3.94万元），受到<b class="punish">党内警告处分</b>。</br>
+
+                        2017年1月，广西钦州港经济技术开发区犀牛脚镇犀牛脚村村委会主任黄福州为儿子摆办婚宴39桌（收礼金9.42万元），受到<b class="punish">党内警告处分</b>。</br>
+
+                        2017年1月，江西玉山县城镇职工基本医疗保险管理局局长尤占明为儿子操办婚宴，收受管理服务对象9人礼金共计9,900元，受到<b class="punish">党内警告处分</b>。</br>
+
+                        2017年5月，北京玉渊潭物业管理集团第三分公司东联项目部经理张连弟为儿子摆办婚宴23桌（收礼金1.45万元），受到<b class="punish">党内严重警告处分</b>。</br>
+
+                        2017年5月4日，吉林珲春市工商联秘书长邵世春因举办本人结婚，邀请16名服务对象参加（共收礼金3,600元），受到<b class="punish">党内警告处分</b>。</p>
+                    <p>……
+                        </br>
+                        截至2017年6月，自中央八项规定实施以来，因操办婚丧喜庆事宜受到党纪处分的共<b>14,535</b>人。
+                    </p>
+
+                </div>
+                <div id="output-wrap" class="col-lg-12 mx-auto">
+                    <span id="output"></span>
+                    <span class="typing-cursor">|</span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="row">
                 <div id="policy" class="col-lg-12 mx-auto">
 
-                    <h3>政策的藩篱</h3>
+                    <h4>政策的藩篱</h4>
 
                     <p><b>严禁大操大办</b>的法理依据出自《中国共产党党员领导干部廉洁从政若干准则》。其第八条第三款明确规定，不准有“大办婚丧喜庆事宜，造成不良影响，或者借机敛财”等行为。严格限制党员干部办婚礼的规模，核心在于防止党员干部利用职权或职务上的影响，借机敛财。</p>
 
@@ -152,6 +219,16 @@
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
     <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>-->
 
+    <script src="js/my.js"></script>
+
+    <script>
+        var typing = new Typing({
+            source: document.getElementById('source'),
+            output: document.getElementById('output'),
+            delay: 80
+        });
+        typing.start();
+    </script>
 
 </body>
 

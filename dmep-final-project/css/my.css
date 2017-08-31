@@ -47,7 +47,8 @@ p {
 }
 
 #question {
-    margin-top: 100px;
+    margin-top: 150px;
+    background-color: #efdfae;
 }
 
 .case1 {
@@ -61,7 +62,7 @@ p {
 }
 
 #lead {
-    margin: 100px;
+    margin-top: 100px;
 }
 
 #mainbody {
@@ -78,6 +79,7 @@ p {
 
 #source {
     display: none;
+    margin: 100px;
 }
 
 .punish {

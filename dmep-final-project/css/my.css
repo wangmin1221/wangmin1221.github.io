@@ -27,7 +27,7 @@ h6 {
 }
 
 h1 {
-    color: rgba(226, 36, 36, 1);
+    color: rgba(158, 98, 38, 1);
     /*text-align: center;*/
     margin-top: 50px;
 }
@@ -49,6 +49,10 @@ p {
 #question {
     margin-top: 150px;
     background-color: #efdfae;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .case1 {
@@ -69,6 +73,13 @@ p {
     margin-top: 100px;
 }
 
+#box {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(226, 36, 36, 1);
+    padding: 10px;
+}
+
 #custom {
     margin-top: 50px;
 }
@@ -77,9 +88,18 @@ p {
     margin-top: 50px;
 }
 
+video {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 #source {
     display: none;
-    margin: 100px;
+}
+
+#output-wrap {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .punish {
@@ -88,6 +108,19 @@ p {
 
 #punishcase {
     font-size: 15px;
+}
+
+#pic2 {
+    margin-bottom: 50px;
+}
+
+#ending {
+    margin-top: 150px;
+    background-color: #efdfae;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 @media (min-width:768px) {
@@ -116,22 +149,31 @@ a:hover {
     margin-bottom: 0;
     text-transform: uppercase;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
-    background-color: #000
+    background-color: #fff
 }
 
 #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
-    color: #fff;
-    border: 1px solid #fff
+    color: rgba(158, 98, 38, 1);
+    border: 1px solid black;
 }
 
 #mainNav .navbar-brand {
-    font-weight: 700
+    font-weight: 600;
+    margin-left: 8%;
 }
 
 #mainNav a {
-    color: #fff
+    color: rgba(158, 98, 38, 1);
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 8%;
 }
 
 #mainNav .navbar-nav .nav-item {

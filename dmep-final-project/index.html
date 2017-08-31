@@ -28,34 +28,53 @@
 </head>
 
 <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <!--<a class="navbar-brand" href="#page-top">公与私</a>-->
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#download">Download</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <section class="content-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 mx-auto">
+                <div class="col-lg-5 mx-auto">
                     <img src="img/囍.png">
                 </div>
-                <div class="col-lg-6 mx-auto">
+                <div class="col-lg-5 mx-auto">
                     <h1>公职人员婚礼怎么办</h1>
                 </div>
             </div>
         </div>
 
-        <div class="container">
-            <div class="row">
-                <div id="question" class="col-lg-12 mx-auto" ;>
-                    <h5>灵魂大拷问：同事结婚，你会随多少礼？</h5>
-                    <button data-option="不随礼" type="button" class="btn btn-danger" id="b1">不随礼，谈钱伤感情</button>
-                    <button data-option="100元" type="button" class="btn btn-danger" id="b2">100元，心意到了就好</button>
-                    <button data-option="666元" type="button" class="btn btn-danger" id="b3">666元，不多不少还吉利</button>
-                    <!--<button data-option="1000元" type="button" class="btn btn-danger">1000元</button>-->
-                    <div class="case1">
-                        <p>恭喜你，没有为腐败做贡献！
-                            <br/>但……这样真的不会没朋友吗……？
-                        </p>
-                    </div>
-                </div>
+        <div id="question">
+            <h5>灵魂大拷问：同事结婚，你会随多少礼？</h5>
+            <button data-option="不随礼" type="button" class="btn btn-danger" id="b1">不随礼，谈钱伤感情</button>
+            <button data-option="100元" type="button" class="btn btn-danger" id="b2">100元，心意到了就好</button>
+            <button data-option="666元" type="button" class="btn btn-danger" id="b3">666元，不多不少还吉利</button>
+            <!--<button data-option="1000元" type="button" class="btn btn-danger">1000元</button>-->
+            <div class="case1">
+                <p>恭喜你，没有为腐败做贡献！
+                    <br/>但……这样真的不会没朋友吗……？
+                </p>
             </div>
         </div>
+
 
         <div class="container">
             <div class="row">
@@ -81,7 +100,7 @@
                     <p>婚礼的礼簿上记录着数千元或数百元，大小不一的礼金数额。据马某本人介绍，这场婚礼，“前后花了六七万元，都是多年的积蓄。光媳妇娘家人就来了23桌，我这边亲戚朋友加上帮忙的，下来也就32桌。礼金收了三四万元。”</p>
 
                     <!--change css here-->
-                    <p id="box">2015年11月20日，莲花街办党委组织召开会议。街办党委认为，马某身为村支部委员、村委会主任，违反中央八项规定及省市县关于严格规范党员干部操办婚丧嫁娶等事宜的要求，违规操办儿子婚宴，造成不良影响，严重违反党的纪律规定和要求，根据《中国共产党纪律处分条例》和《中共城固县委、城固县人民政府关于严格规范党员干部操办婚丧嫁娶等事宜的意见》规定，免去马某村党支部委员，并给予马某党内严重警告处分。</p>
+                    <p id="box">2015年11月20日，莲花街办党委组织召开会议。街办党委认为，马某身为村支部委员、村委会主任，违反中央八项规定及省市县关于严格规范党员干部操办婚丧嫁娶等事宜的要求，违规操办儿子婚宴，造成不良影响，严重违反党的纪律规定和要求，根据《中国共产党纪律处分条例》和《中共城固县委、城固县人民政府关于严格规范党员干部操办婚丧嫁娶等事宜的意见》规定，<b>免去马某村党支部委员，并给予马某党内严重警告处分</b>。</p>
 
                     <p>“我就一个儿子，这么多年也没办过红白喜事，来的都是朋友，真的办法。对我咋处理都行，希望不要影响了村上工作和领导。”当被问及是否因为此事后悔时，马某回应道。</p>
 
@@ -154,16 +173,17 @@
                         2017年5月4日，吉林珲春市工商联秘书长邵世春因举办本人结婚，邀请16名服务对象参加（共收礼金3,600元），受到<b class="punish">党内警告处分</b>。</p>
                     <p>……
                         </br>
-                        截至2017年6月，自中央八项规定实施以来，因操办婚丧喜庆事宜受到党纪处分的共<b>14,535</b>人。
+                        截至2017年6月，自中央八项规定实施以来，因操办婚丧喜庆事宜受到党纪处分的共<b class="totalnum">14,535</b>人。
                     </p>
 
                 </div>
                 <div id="output-wrap" class="col-lg-12 mx-auto">
                     <span id="output"></span>
-                    <span class="typing-cursor">|</span>
+                    <!--<span class="typing-cursor">|</span>-->
                 </div>
             </div>
         </div>
+
 
 
 
@@ -200,12 +220,13 @@
 
                     <p>小杨对办婚礼不允许收礼金的规定表示不解，<b>“只要是正常范围内，为什么要弄得大家婚礼都办不成啊。不可能不收礼金，不能因为规定，就影响正常生活。”</b> </p>
 
-
-
                 </div>
             </div>
         </div>
 
+        <div id="ending">
+            数据来源：
+        </div>
 
 
     </section>

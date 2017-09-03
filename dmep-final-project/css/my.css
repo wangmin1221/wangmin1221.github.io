@@ -36,9 +36,10 @@ h4 {
     color: rgba(164, 45, 35, 1);
 }
 
-h5 {
+
+/*h5 {
     color: #8b4513;
-}
+}*/
 
 p {
     font-size: 16px;
@@ -47,12 +48,13 @@ p {
 }
 
 #question {
-    margin-top: 150px;
     background-color: #efdfae;
-    padding-left: 9%;
-    padding-right: 9%;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    /*padding-left: 12%;
+    padding-right: 12%;*/
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+    height: auto;
 }
 
 .case1 {
@@ -65,26 +67,32 @@ p {
     font-size: 25px;
 }
 
-#lead {
-    margin-top: 100px;
+#pic1 {
+    margin-top: 50px;
+    /*width: 100%;
+    height: 300px;*/
 }
 
-#mainbody {
-    margin-top: 100px;
-}
+
+/*#pic2 {
+    margin-bottom: 50px;
+}*/
 
 #box {
     border-style: solid;
-    border-width: 3px;
-    border-color: rgba(226, 36, 36, 1);
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, .3);
+    /*background-color: rgba(226, 36, 36, .3);*/
     padding: 10px;
+    /*font-size: 15px;*/
+}
+
+hr {
+    height: 30px;
+    border-top: 2px solid rgba(164, 45, 35, .7);
 }
 
 #custom {
-    margin-top: 50px;
-}
-
-#policy {
     margin-top: 50px;
 }
 
@@ -95,27 +103,15 @@ video {
 
 #source {
     display: none;
-}
-
-#output-wrap {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    font-size: 15px;
 }
 
 .punish {
     color: rgba(226, 36, 36, 1);
 }
 
-#punishcase {
-    font-size: 15px;
-}
-
-#pic2 {
-    margin-bottom: 50px;
-}
-
 #ending {
-    margin-top: 150px;
+    /*margin-top: 150px;*/
     background-color: #efdfae;
     padding-left: 9%;
     padding-right: 9%;
@@ -156,12 +152,7 @@ a:hover {
     font-size: 14px;
     padding: 11px;
     color: rgba(158, 98, 38, 1);
-    border: 1px solid black;
-}
-
-#mainNav .navbar-brand {
-    font-weight: 600;
-    margin-left: 8%;
+    border: 1px solid rgba(158, 98, 38, 1);
 }
 
 #mainNav a {
@@ -173,7 +164,7 @@ a:hover {
     flex-basis: 100%;
     -ms-flex-align: center;
     align-items: center;
-    margin-right: 8%;
+    /*margin-right: 10%;*/
 }
 
 #mainNav .navbar-nav .nav-item {
@@ -226,9 +217,9 @@ a:hover {
     height: auto;
     padding: 200px 0;
     text-align: center;
-    color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    color: rgba(158, 98, 38, 1);
+    /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -241,11 +232,11 @@ a:hover {
 }
 
 .masthead .intro-body .brand-heading {
-    font-size: 50px
+    font-size: 30px
 }
 
 .masthead .intro-body .intro-text {
-    font-size: 18px
+    font-size: 18px；
 }
 
 @media (min-width:768px) {
@@ -254,10 +245,10 @@ a:hover {
         padding: 0
     }
     .masthead .intro-body .brand-heading {
-        font-size: 100px
+        font-size: 50px
     }
     .masthead .intro-body .intro-text {
-        font-size: 22px
+        font-size: 18px；
     }
 }
 
@@ -284,39 +275,41 @@ a:hover {
 }
 
 .content-section {
-    padding-top: 150px;
-    padding-bottom: 150px
-}
-
-.download-section {
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
+    padding-top: 100px;
+    padding-bottom: 100px
 }
 
 @media (min-width:992px) {
     .content-section {
-        padding-top: 200px;
-        padding-bottom: 200px
+        padding-top: 50px;
+        padding-bottom: 50px
     }
-}
-
-.btn {
-    font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 200;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    text-transform: uppercase;
-    border-radius: 1;
-    margin-right: 5px;
-    background-color: rgba(226, 36, 36, 1);
-    font-size: 15px;
-    padding: 0.3rem 0.7rem;
+    #question {
+        margin-top: 180px;
+        margin-bottom: 180px;
+        text-align: center;
+    }
+    .case1 {
+        width: 45%;
+        height: 50px;
+        text-align: left;
+        margin-left: 27%;
+        margin-right: 27%;
+    }
+    .btn {
+        font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 150;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        text-transform: uppercase;
+        border-radius: 1;
+        margin-right: 30px;
+        margin-top: 5px;
+        background-color: rgba(226, 36, 36, 1);
+        font-size: 15px;
+        padding: 0.3rem 0.7rem;
+    }
 }
 
 .btn-default {
@@ -351,6 +344,20 @@ ul.banner-social-buttons {
     }
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0
+    }
+    .btn {
+        font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 150;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        text-transform: uppercase;
+        border-radius: 1;
+        margin-right: 300px;
+        margin-top: 10px;
+        background-color: rgba(226, 36, 36, 1);
+        font-size: 15px;
+        padding: 0.3rem 0.7rem;
     }
 }
 

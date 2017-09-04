@@ -256,10 +256,6 @@
                     line-height: 1.6;
                     margin: 0 0 35px
                 }
-                #mainNav {
-                    margin-left: 12px;
-                    margin-right: 12px;
-                }
                 .masthead {
                     height: 100%;
                     padding: 0
@@ -295,7 +291,9 @@
                     transition: background .3s ease-in-out, padding-top .3s ease-in-out, padding-bottom .3s;
                     letter-spacing: 1px;
                     border-bottom: none;
-                    background: 0 0
+                    background: 0 0;
+                    margin-left: 80px;
+                    margin-right: 80px;
                 }
                 #mainNav.navbar-shrink {
                     padding-top: 10px;

@@ -26,10 +26,37 @@
                 color: black;
             }
             
+            .masthead {
+                display: table;
+                width: 100%;
+                height: auto;
+                padding: 200px 0;
+                text-align: center;
+                color: rgba(158, 98, 38, 1);
+                background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+                background-color: #fff;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover
+            }
+            
+            .masthead .intro-body {
+                display: table-cell;
+                vertical-align: middle
+            }
+            
+            .masthead .intro-body .brand-heading {
+                font-size: 30px
+            }
+            
+            .masthead .intro-body .intro-text {
+                font-size: 18px；
+            }
+            
             h1 {
                 color: rgba(158, 98, 38, 1);
-                /*text-align: center;*/
-                margin-top: 50px;
+                font-size: 50px;
             }
             
             h4 {
@@ -118,18 +145,6 @@
                 padding-top: 20px;
                 padding-bottom: 20px;
             }
-            /*a {
-                -webkit-transition: all .2s ease-in-out;
-                -moz-transition: all .2s ease-in-out;
-                transition: all .2s ease-in-out;
-                color: #42dca3
-            }
-            
-            a:focus,
-            a:hover {
-                text-decoration: none;
-                color: #1d9b6c
-            }*/
             
             #mainNav {
                 font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -176,56 +191,6 @@
                 background-color: transparent
             }
             
-            .masthead {
-                display: table;
-                width: 100%;
-                height: auto;
-                padding: 200px 0;
-                text-align: center;
-                color: rgba(158, 98, 38, 1);
-                /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
-                background-color: #fff;
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                -o-background-size: cover;
-                background-size: cover
-            }
-            
-            .masthead .intro-body {
-                display: table-cell;
-                vertical-align: middle
-            }
-            
-            .masthead .intro-body .brand-heading {
-                font-size: 30px
-            }
-            
-            .masthead .intro-body .intro-text {
-                font-size: 18px；
-            }
-            
-            .btn-circle {
-                font-size: 26px;
-                width: 55px;
-                height: 55px;
-                margin-top: 15px;
-                line-height: 38px;
-                -webkit-transition: background .3s ease-in-out;
-                -moz-transition: background .3s ease-in-out;
-                transition: background .3s ease-in-out;
-                color: #fff;
-                border: 2px solid #fff;
-                border-radius: 100%!important;
-                background: 0 0
-            }
-            
-            .btn-circle:focus,
-            .btn-circle:hover {
-                color: #fff;
-                outline: 0;
-                background: rgba(255, 255, 255, .1)
-            }
-            
             .btn-default {
                 color: #42dca3;
                 border: 1px solid #42dca3;
@@ -266,9 +231,6 @@
                 }
                 .masthead .intro-body .intro-text {
                     font-size: 18px；
-                }
-                #bg-img {
-                    margin-top: 80px;
                 }
                 .content-section {
                     padding-top: 30px;
@@ -311,9 +273,6 @@
                 .content-section {
                     padding-top: 60px;
                     padding-bottom: 60px
-                }
-                #head {
-                    margin-top: 140px;
                 }
                 #question {
                     margin-top: 100px;
@@ -395,3 +354,35 @@
             body {
                 -webkit-tap-highlight-color: rgba(255, 255, 255, .2)
             }
+            /*.btn-circle {
+                font-size: 26px;
+                width: 55px;
+                height: 55px;
+                margin-top: 15px;
+                line-height: 38px;
+                -webkit-transition: background .3s ease-in-out;
+                -moz-transition: background .3s ease-in-out;
+                transition: background .3s ease-in-out;
+                color: #fff;
+                border: 2px solid #fff;
+                border-radius: 100%!important;
+                background: 0 0
+            }*/
+            /*.btn-circle:focus,
+            .btn-circle:hover {
+                color: #fff;
+                outline: 0;
+                background: rgba(255, 255, 255, .1)
+            }*/
+            /*a {
+                -webkit-transition: all .2s ease-in-out;
+                -moz-transition: all .2s ease-in-out;
+                transition: all .2s ease-in-out;
+                color: #42dca3
+            }
+            
+            a:focus,
+            a:hover {
+                text-decoration: none;
+                color: #1d9b6c
+            }*/

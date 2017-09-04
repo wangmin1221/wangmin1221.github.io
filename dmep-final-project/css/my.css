@@ -36,6 +36,10 @@
                 color: rgba(164, 45, 35, 1);
             }
             
+            #subtitle {
+                color: rgba(158, 98, 38, 1);
+            }
+            
             p {
                 font-size: 16px;
                 line-height: 1.5;
@@ -53,6 +57,20 @@
             .case1 {
                 display: none;
                 margin-top: 20px;
+            }
+            
+            .btn {
+                font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                font-weight: 150;
+                -webkit-transition: all .3s ease-in-out;
+                -moz-transition: all .3s ease-in-out;
+                transition: all .3s ease-in-out;
+                text-transform: uppercase;
+                border-radius: 1;
+                margin-top: 5px;
+                background-color: rgba(226, 36, 36, 1);
+                font-size: 15px;
+                padding: 0.3rem 0.7rem;
             }
             
             .totalnum {
@@ -82,10 +100,6 @@
                 border-top: 2px solid rgba(164, 45, 35, .7);
             }
             
-            video {
-                margin-bottom: 80px;
-            }
-            
             #source {
                 display: none;
                 font-size: 15px;
@@ -93,6 +107,10 @@
             
             .punish {
                 color: rgba(226, 36, 36, 1);
+            }
+            
+            #line {
+                margin-top: 100px;
             }
             
             #ending {
@@ -226,6 +244,12 @@
                 margin-top: 0
             }
             
+            .source {
+                font-size: 15px;
+                margin-top: 10px;
+                text-align: center;
+            }
+            
             @media (min-width:768px) {
                 p {
                     font-size: 18px;
@@ -257,6 +281,9 @@
                 #pic2 {
                     width: 80%;
                 }
+                #mtv {
+                    margin-bottom: 80px;
+                }
             }
             
             @media (min-width:992px) {
@@ -283,26 +310,22 @@
                 #mainNav .nav-link.active:hover {
                     color: #fff
                 }
+                .content-section {
+                    padding-top: 60px;
+                    padding-bottom: 60px
+                }
                 #head {
-                    margin-top: 150px;
+                    margin-top: 140px;
                 }
                 #question {
                     margin-top: 100px;
                     text-align: center;
                 }
                 .btn {
-                    font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-                    font-weight: 150;
-                    -webkit-transition: all .3s ease-in-out;
-                    -moz-transition: all .3s ease-in-out;
-                    transition: all .3s ease-in-out;
-                    text-transform: uppercase;
-                    border-radius: 1;
                     margin-right: 20px;
-                    margin-top: 5px;
-                    background-color: rgba(226, 36, 36, 1);
-                    font-size: 15px;
-                    padding: 0.3rem 0.7rem;
+                }
+                #mtv {
+                    margin-bottom: 80px;
                 }
             }
             
@@ -320,6 +343,25 @@
                 }
                 ul.banner-social-buttons li:last-child {
                     margin-bottom: 0
+                }
+                .masthead .intro-body .brand-heading {
+                    font-size: 50px;
+                    margin-top: 70px;
+                }
+                .content-section {
+                    padding-top: 30px;
+                    padding-bottom: 30px
+                }
+                .btn {
+                    margin-right: 300px;
+                }
+                #question {
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                }
+                #mtv {
+                    margin-top: -90px;
+                    margin-bottom: 50px;
                 }
             }
             

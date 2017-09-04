@@ -60,7 +60,7 @@
                     </div>
                     <div id="head" class="col-lg-5 mx-auto">
                         <h1 class="brand-heading">制度的温度</h1>
-                        <h3 class="intro-text">
+                        <h3 id="subtitle" class="intro-text">
                             公职人员婚礼怎么办</h3>
                         <!--<a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
@@ -120,6 +120,7 @@
                     <h4>受惩罚的婚礼</h4>
                     <!--<hr>-->
                     <img src="img/通报.png" width=100%;height=300px;>
+                    <p class="source">(案例整合自:华商网、城固县政府网站)</p>
 
                     <p>
                         <br/>
@@ -149,7 +150,7 @@
                     <!--typing.js here-->
                     <p id="source">2013年4月，北京密云县檀营乡党委委员、副乡长刘远超邀请418人参加儿子婚礼（收礼金31,100元），受到党内严重警告处分。</br>
 
-                        2013年9月，四川合江县白米乡副乡长刘及贵为儿子摆办婚宴81桌（共收礼金12.17万元），受到党内严重警告处分，并免去职务。</br>
+                        2013年9月，四川合江县白米乡副乡长刘及贵为儿子摆办婚宴81桌（收礼金12.17万元），受到党内严重警告处分，并免去职务。</br>
 
                         2013年9月，黑龙江肇源县法院审监庭庭长姜英龙为女儿摆办婚宴41桌（收礼金13.2万元），受到党内严重警告处分。</br>
 
@@ -157,7 +158,7 @@
 
                         2014年4月，广东湛江经济技术开发区国税局副局长杨智为儿子摆办婚宴28桌（收礼金9.36万元），被免职处理。</br>
 
-                        2014年5月，海口市琼山区云龙镇云裕村党支部书记、村委会主任王朝阳为儿子操办婚宴（共16桌，收礼5,000元），受到党内警告处分。</br>
+                        2014年5月，海口市琼山区云龙镇云裕村党支部书记、村委会主任王朝阳为儿子摆办婚宴16桌（收礼金5,000元），受到党内警告处分。</br>
 
                         2014年6月，北京市怀柔区园林绿化局纪委书记李久武为女儿摆办婚宴26桌（收礼金15.6万元），受到党内严重警告处分。</br>
 
@@ -188,6 +189,12 @@
                     <span id="output"></span>
                     <!--<span class="typing-cursor">|</span>-->
                 </div>
+
+                <!--line chart-->
+                <div id="line" class="col-lg-11 mx-auto">
+                    <div id="main" style="width:100%; height:500px; background: white;"></div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -247,12 +254,18 @@
                     <h4>难以逾越的习俗</h4>
 
                     <p>据历史记载，喜礼“份子钱”开始于明朝。在农耕时代，生产力和生产方式比较落后，盖房子、娶媳妇是大事，仅靠一家一户难以完成，形成了“凑份子”的模式，每户人家都送点礼，出点钱，集多家之力办喜事。改革开放后，人们手上也有了闲钱，随着商品经济观念的深入人心，直接送钱为全社会所接受，送礼金成为祝福新人的方式。今天，这已经成为一种习惯，逐渐成为了衡量人际关系的标准。</p>
+                </div>
 
+                <div id="mtv" class="col-lg-11 mx-auto">
                     <!--a video here-->
                     <video width="100%" height="500" controls="controls">
   <source src="micro/份子钱.webm" type="video/webm" />
+  <source src="micro/份子钱.mp4" type="video/mp4" />
+  <source src="micro/份子钱.swf" type="video/swf" />
 </video>
-
+                    <p class="source">(视频来源:壹读视频)</p>
+                </div>
+                <div class="col-lg-11 mx-auto">
                     <p>有报道称，杜家槽村邻村的一位村民说：“作为一个有声望的人，摆的酒席太少，大家也会觉得你太涩皮（陕西方言，表示抠门），会怀疑你是不是人缘不行。”</p>
 
                 </div>
@@ -278,7 +291,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-11 mx-auto">
-                        数据来源：
+                        数据来源说明：
                     </div>
                 </div>
             </div>
@@ -308,6 +321,11 @@
         });
         typing.start();
     </script>
+
+    <!--Echarts core JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/3.6.2/echarts.common.js"></script>
+
+    <script src="js/line.js"></script>
 
 </body>
 

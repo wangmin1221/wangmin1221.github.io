@@ -310,15 +310,15 @@
                     padding-bottom: 30px
                 }
                 .btn {
-                    margin-right: 300px;
+                    margin-right: 36px;
                 }
                 #question {
                     padding-top: 50px;
                     padding-bottom: 50px;
                 }
                 #mtv {
-                    margin-top: -90px;
-                    margin-bottom: 50px;
+                    margin-top: -150px;
+                    /*margin-bottom: 0px;*/
                 }
             }
             

@@ -4,7 +4,7 @@ option = {
     title: {
         show: true,
         text: '每个月查处人数',
-        left: '30',
+        left: '0',
         textStyle: {
             color: '#191919',
             // fontFamily: 'Lora, Helvetica Neue, Helvetica, Arial, sans-serif',

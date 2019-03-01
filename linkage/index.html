@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="top">
+        <audio id="audio" src="audio/bgm.mp3" controls autoplay="autoplay" loop style="display: none;"></audio>
+        <img style="position: absolute;z-index: 100;right: 60px;top: 65px;width: 75px;height: 75px;" src="images/button/voice.png" id="voice-button">
+    </div>
+    <div id="content">
+        <iframe id="myframe" style="position: relative" src="index-1.html" width="100%" frameborder="1/0" name="iframe名称" scrolling="yes/no/auto"></iframe>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script>
+    var height = document.documentElement.clientHeight; //获取屏幕高度
+    document.getElementById("myframe").height = height; //设置高度100%
+    //音乐播放
+    $("#audio").get(0).play();
+    var flag = false;
+    $("#voice-button").click(function() {
+        if (!flag) {
+            //$(this).css({"-webkit-animation-iteration-count":"0"});
+            $(this).css({
+                "-webkit-animation-play-state": "paused"
+            });
+            //音乐停止
+            $("#audio").get(0).pause();
+            flag = true;
+        } else {
+            //$(this).css({"-webkit-animation-iteration-count":"infinite"});
+            $(this).css({
+                "-webkit-animation-play-state": "running"
+            });
+            //音乐播放
+            $("#audio").get(0).play();
+            flag = false;
+        }
+    })
+
+    var bgAudio = document.getElementById('audio'),
+        forceMute = false;
+    document.addEventListener("WeixinJSBridgeReady", function() {
+        bgAudio.play();
+    }, false);
+
+    function audioPlay() {
+        bgAudio.play();
+        document.removeEventListener('touchstart', audioPlay, false);
+    }
+    document.addEventListener('touchstart', audioPlay, false);
+</script>
+
+</html>

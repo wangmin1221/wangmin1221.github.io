@@ -62,22 +62,22 @@ img {
 /*****************************第一张*********************************/
 
 .section0 .pic1 {
-    width: 30%;
-    left: 36%;
-    top: 8%;
+    width: 75%;
+    left: 13%;
+    top: 10%;
 }
 
 .section0 .pic2 {
-    width: 20%;
-    left: 40%;
-    bottom: 300px;
+    width: 25%;
+    left: 38%;
+    bottom: 190px;
     z-index: 21;
 }
 
 .section0 .pic3 {
-    width: 80%;
-    left: 10%;
-    bottom: 28%;
+    width: 75%;
+    left: 13%;
+    top: 30%;
     z-index: 21;
 }
 
@@ -183,21 +183,21 @@ img {
 .section2 .section2_pic3 {
     width: 90%;
     left: 5%;
-    top: 15%;
+    top: 22%;
     z-index: 3;
 }
 
 .section2 .section2_pic4 {
     width: 90%;
     left: 5%;
-    top: 35%;
+    top: 42%;
     z-index: 3;
 }
 
 .section2 .section2_pic5 {
     width: 90%;
     left: 5%;
-    top: 55%;
+    top: 62%;
     z-index: 3;
 }
 
@@ -222,7 +222,7 @@ img {
 /* ----about text---- */
 
 .about-text {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 35px;
     color: #ffffff;
 }

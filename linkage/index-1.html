@@ -107,8 +107,8 @@
                 }
             })
             //这个是返回回来的状况，需要跳转第二页，如果需要设置音乐也在这里设置
-        if (getUrlQueryString('num') == 2) {
-            mySwiper.slideTo(2, 1000, function() {
+        if (getUrlQueryString('num') == 1) {
+            mySwiper.slideTo(1, 1000, function() {
                 swiper.lazy.load();
             });
         }

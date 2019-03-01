@@ -53,23 +53,7 @@
     <img src="images/img-detail/detail1-2.png" class="details2">
     <a href="index-1.html?num=1"><img src="images/button/back-button.png" class="back-to-page"></a>
 
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            "use strict"; //严格模式
-            var video; //video标签
-            var scale = 0.8; //第一帧图片与源视频的比例
-            video = $("#video").get(0); //赋值标签
-            video.on("loadeddata", function() { //加载完成事件，调用函数
-                var canvas = document.createElement("canvas"); //canvas画布
-                canvas.width = video.videoWidth * scale;
-                canvas.height = video.videoHeight * scale;
-                canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height); //画图
-                video.setAttribute("poster", canvas.toDataURL("video/video-img.jpg")); //关键一步 —— 设置标签的 poster 属性的值为 base64 编译过后的canvas绘图。
-            })
-        }());
-    </script>
-    <!-- 原文：https://blog.csdn.net/weixin_38597686/article/details/77992921 -->
+
 
 </body>
 
